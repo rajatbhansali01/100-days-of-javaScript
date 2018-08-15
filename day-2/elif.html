@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+<head>
+<script>
+function chk()
+{
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c=Number(document.getElementById("third").value);
+if(a>=b)
+{
+alert("a is greator");
+}
+else if(a>=c)
+{
+alert("a is greator");
+}
+else if(b>=c)
+{
+alert("b is greator");
+}
+else if(b>=a)
+{
+alert("b is greator");
+}
+else if(c>=a)
+{
+alert("c is grator");
+}
+else if(c>=b)
+{
+alert("c is gretor")
+}
+}
+
+</script>
+</head>
+<body>
+Enter first<input id="first">
+Enter Second<input id="second">
+Enter third<input id="third"><br/>
+<button onclick="chk()">Submit
+</button>
+</body>
+</html>
