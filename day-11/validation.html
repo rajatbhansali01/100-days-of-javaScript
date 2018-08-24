@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<script>
+function validationform()
+{
+var name=document.myform.name.value;
+var password=document.myform.password.value;
+if(name==null || name=="")
+{
+alert("name cant be blank");
+return false;       				
+}else if(password.length<6)
+{
+alert("password must be gretor than is greor 8");
+return false;
+}
+}
+</script>
+<body>
+<center>
+<pre>
+<form name="myform" action="https://github.com/rajatbhansali01?tab=following" onsubmit="return validationform()">
+Name: <input type="text" name="name"><br/>  
+Password: <input type="password" name="password"><br/>  
+<input type="submit" value="Register">  
+</pre>
+</center>
+</form>  
+</body>
+</html>
