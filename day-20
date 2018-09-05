@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var str="RajatBhansali";
+alert(str.charAt(4));
+</script>
+
+</body>
+</html>
+
+ 
