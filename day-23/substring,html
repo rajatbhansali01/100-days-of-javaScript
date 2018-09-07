@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var str="rajatbhansali";
+document.writeln(str.substring(0,5));
+</script>
+
+</body>
+</html>
+
+ 
